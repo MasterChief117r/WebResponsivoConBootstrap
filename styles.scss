@@ -1,0 +1,64 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+body {
+    font-family: $font-stack;
+    margin-top: 70px; 
+}
+
+
+.navbar {
+    background-color: $primary-color;
+
+    .nav-link {
+        color: white;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+
+.jumbotron {
+    background-color: $primary-color;
+    color: white;
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .lead {
+        font-size: 1.25rem;
+    }
+}
+
+
+.card {
+    margin-bottom: 20px;
+
+    .card-title {
+        font-size: 1.5rem;
+        color: $primary-color;
+    }
+
+    .card-text {
+        color: $secondary-color;
+    }
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    border: none;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
